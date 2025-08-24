@@ -5,7 +5,6 @@
 
 Use Terraform ([main.tf](main.tf)) to launch an Ubuntu EC2 instance with required security groups and SSH key.
 
-```sh
 terraform init
 terraform apply
 
