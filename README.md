@@ -1,4 +1,12 @@
 # SSH Authetication Failure Metrics Alert 
+
+Detected when Any user try to SSH with incorrect private key or wrong information.
+
+For instance:
+
+    ssh -i ~/.ssh/id_rsa ubuntu@<public_ip>
+
+Here the correct key is not provided just to collect 'failed' logs.
 ## Setup
 
 ### 1. Provision EC2 Instance
